@@ -80,6 +80,11 @@ a {
     transition: all 0.2s;
 }
 
+#logo{
+    width: 20%;
+    height:auto;
+}
+
 img {
     width: 100%;
 }

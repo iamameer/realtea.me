@@ -4,8 +4,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-     
-    <title>My Personal Portfolio Template</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+    <title>reAltea.me</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,9 +28,9 @@
     <!-- AOS css file for CSS3 animation -->
     <link href="css/aos.css" rel="stylesheet">
     <!-- Main Custom Style -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css?v=1" rel="stylesheet">
     <!-- Responsive Style -->
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/responsive.css?v=1" rel="stylesheet">
 </head>
 
 <body data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0" class="" style="">
@@ -64,7 +70,10 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">reAltea</a>
+                    <!-- <a class="navbar-brand" href="#">reAltea</a> -->
+                    <h2 style="color:silver;font-family:'Balthazar'">
+                    <img id="logo" src="img/fav.png">
+                    reAltea</h2>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -95,7 +104,7 @@
             <div class="col-md-8 col-md-offset-2 text-center">
                 <p data-aos="fade-right" class="aos-init aos-animate" style="color:white;
                text-shadow: 0px 0px 10px rgba(150, 150, 150, 1);">
-                   I'm an experienced Software Engineer who enjoys learning new stuffs and provide solutions. 
+                   Experienced Software Engineer who enjoys learning new stuffs and provide solutions. 
                 <br>Feel free to contact me and enquire on further clarifications!</p>
                 <div class="social-media">
                     <a target="_blank" href="https://www.facebook.com/realtea.me" title="Facebook Page"><span class="fa fa-facebook"></span></a>
@@ -216,8 +225,9 @@
         <div class="col-md-4 clearfix aos-init" data-aos="fade-right">
             <div class="row">
                 <div class="blog-box clearfix aos-init" data-aos="fade-up">
-                    <div class="col-md-12 col-sm-4"><img src="img/blog-verticle.jpg" alt="Blog"></div>
+                    <div class="col-md-12 col-sm-4"><img src="img/blog-commerce.jpg" alt="ecommerce"></div>
                     <div class="col-md-12 col-sm-8">
+                        <div class="text">
                         <h5 class="pull-left">E-Commerce</h5>
                         <span class="pull-right">Starts at RM800</span>
                         <p>In the package you'll get:
@@ -229,8 +239,9 @@
                                 <li>FREE 1 year maintenance and support</li>
                             </ul>
                         </p>
-                        <a href="#">
+                        <a href="http://demo1.realtea.me/demo">
                         <button class="btn btn-default package1" id="contact-submit">View Demo</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -238,8 +249,9 @@
         <div class="col-md-8">
             <div class="row">
                 <div class="blog-box clearfix aos-init" data-aos="fade-up">
-                    <div class="col-md-4 col-sm-4"><img src="img/blog-horizontal-1.jpg" alt="Blog"></div>
+                    <div class="col-md-4 col-sm-4"><img src="img/blog-catalogue.jpg" alt="catalogue"></div>
                     <div class="col-md-8 col-sm-8">
+                        <div class="text">
                         <h5 class="pull-left">Online Catalogue</h5>
                         <span class="pull-right">Starts at RM250</span>
                         <p>In the package you'll get:
@@ -249,17 +261,19 @@
                                 <li>FREE 1 year maintenance and support</li>
                             </ul>
                         </p>
-                        <a href="#">
+                        <a href="http://demo2.realtea.me/">
                         <button class="btn btn-default package2" id="contact-submit">View Demo</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="blog-box clearfix aos-init" data-aos="fade-up">
-                    <div class="col-md-4 col-sm-4"><img src="img/blog-horizontal-2.jpg" alt="Blog"></div>
+                    <div class="col-md-4 col-sm-4"><img src="img/blog-landing.jpg" alt="landing"></div>
                     <div class="col-md-8 col-sm-8"> 
+                        <div class="text">
                         <h5 class="pull-left">Landing Page</h5>
-                        <span class="pull-right">Starts as low as RM100</span>
+                        <span class="pull-right">Starts as low as RM50</span>
                         <p>In the package you'll get:
                             <ul style="color:silver;margin-left:20px"> 
                                 <li>1 Landing Page</li>  
@@ -268,8 +282,9 @@
                             <i style="font-size:12px">domain name, extra support can be added as à la carte</i>
                             </ul>
                         </p>
-                        <a href="#">
+                        <a href="http://demo3.realtea.me/">
                         <button class="btn btn-default package3" id="contact-submit">View Demo</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -317,8 +332,15 @@
                 <div class="col-md-6 text-center">
                     <div class="copyright">© <script type="text/javascript"> 
 
-                    document.write((new Date()).getFullYear())
-                    </script> realtea.me | All Rights Reserved.<br><i style="font-size:8px">Background Photo by <a href="https://unsplash.com/@ffstop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fotis Fotopoulos</a> on <a href="/s/photos/developer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></i></div>
+                        document.write((new Date()).getFullYear())
+                        </script> realtea.me | All Rights Reserved.<br>
+                        <i style="font-size:8px">Background Photo by <a href="https://unsplash.com/@ffstop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fotis Fotopoulos</a> on <a href="/s/photos/developer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
+                        | Thumbnail by 
+                            <a href="https://unsplash.com/@brookelark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brooke Lark</a>,
+                            <a href="https://unsplash.com/@igormiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Igor Miske</a>,
+                            <a href="https://unsplash.com/@anete_lusina?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anete Lūsiņa</a>
+                        </i>
+                    </div>
                 </div>
                 <div class="col-md-6 text-center">
                     <div class="social-media">
