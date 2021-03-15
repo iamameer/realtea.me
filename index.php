@@ -11,7 +11,7 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
 
-    <title>reAltea.me</title>
+    <title>Affordable websites!</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -128,7 +128,7 @@
                 <span class="fa fa-pencil"></span>
                 <h3>Design</h3>
                 <p>Creating posters and design for any business or personal use. Ranging from posters, banners, edits
-                    even filter touch up. Experience in photo manipulation edits. &#x1F4F8;
+                    even filter touch up. Experienced in photo manipulation edits. &#x1F4F8;
                 </p>
             </div>
             <div class="col-md-6 col-sm-6 box-gradient aos-init aos-animate" data-aos="fade-right">
@@ -143,7 +143,7 @@
             <div class="col-md-6 col-sm-6 box-gradient aos-init aos-animate" data-aos="fade-right">
                 <span class="fa fa-code"></span>
                 <h3>Full-stack Development</h3>
-                <p>Yep, you read it right, I do develop site from the front-end till back-end development, starting from UI/UX design,
+                <p>Yep, you read it right, I do develop sites from the front-end till back-end development, starting from UI/UX design,
                     image editing, formatting, layouts, database structure, scripting and even security.
                 </p>
             </div>
@@ -151,7 +151,7 @@
                 <span class="fa fa-shopping-bag"></span>
                 <h3>e-Commerce Developer</h3>
                 <p>Want to setup a landing page? Managing your stocks online with orders?  
-                   <br>Get it done at affordable price &#x1F60F; priced as low as RM50 
+                   <br>Get it done at an affordable price &#x1F60F; priced as low as RM50 
                    <br><i style="font-size:12px">Compared to other service provider (RM1500 and above)</i>
                 </p> 
             </div>
@@ -187,7 +187,7 @@
                         </div>
                         <div class="modal-body">
                             <a target="_blank" href="http://cybereats.fun">
-                            <img src="img/cybereat-big.jpg" alt="Project title"></a>
+                            <img src="img/cybereat-big2.jpg" alt="Project title"></a>
                         </div>
                     </div>
                 </div>
@@ -279,7 +279,7 @@
                                 <li>1 Landing Page</li>  
                                 <li>FREE 3 months maintenance and support</li>
                                 <br>
-                            <i style="font-size:12px">domain name, extra support can be added as à la carte</i>
+                            <i style="font-size:12px">Domain name, extra support can be added as à la carte</i>
                             </ul>
                         </p>
                         <a href="http://demo3.realtea.me/">
