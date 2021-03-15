@@ -1,0 +1,29 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    #bio {
+        padding-top: 120px;
+    }
+    .navbar-default {
+        padding: 20px 20px 20px 0;
+        background: #000;
+    }
+    .navbar-default.header-scroll {
+        padding: 60px 20px 20px 0;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
